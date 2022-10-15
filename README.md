@@ -4,7 +4,20 @@ Sistem informasi peminjaman dan pengembalian mobil berbasis REST API menggunakan
 
 ## Quick Start
 
-Create config file bernama `.env`:
+Clone terlebih dahulu repo ini:
+
+```
+git clone https://github.com/coderitma/rental-api.git
+```
+
+Masuk ke project dan instal dependensi yang diperlukan:
+
+```
+cd rental-api.git
+npm install
+```
+
+Buat file config bernama `.env`:
 
 ```
 PROJECT_PORT=3001
