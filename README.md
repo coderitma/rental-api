@@ -1,14 +1,24 @@
-# JuCo Boilerplate
+# Rental API
 
-boilerplate to build a REST API with express more easily. It is equipped with various optional libraries such as `knex`, `mysql2`, `jwt` and many more.
-
-It also provides a user model that can be directly used for authentication. It is modular following the Django design pattern.
-
-![JuCo Logo](./juco.png?raw=true)
+Sistem informasi peminjaman dan pengembalian mobil berbasis REST API menggunakan Express.js.
 
 ## Quick Start
 
-Create database and create table user:
+Create config file bernama `.env`:
+
+```
+PROJECT_PORT=3001
+PROJECT_KEY=<your-token>
+
+DB_CLIENT=mysql2
+DB_NAME=<your-db>
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_PORT=3306
+```
+
+Buat database dan satu tabel user:
 
 ```sql
 CREATE TABLE `user` (
